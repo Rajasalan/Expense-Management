@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>account balance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body style="background-color: wheat;">
+
+    <h1>Account Details</h1>
+
+    <div class="account-field">
+        <input type="text" id="description" placeholder="Description">
+        <input type="number" id="amount" placeholder="Amount">
+
+        <select id="account-type">
+            <option value="income" id="income">Income</option>
+            <option value="expense" id="expense">Expense</option>
+        </select>
+
+        <button type="button" , id="add-btn">Add</button>
+
+    </div>
+
+    <div class="account-detail">
+        <div class="income-div">
+            <h2>Income</h2>
+            <div id="income-output">
+            </div>
+            <hr/>
+            <p id="total-income"> </p>
+
+        </div>
+        <div class="expense-div">
+            <h2>Expense</h2>
+            <div id="expense-output"></div>
+            <hr/>
+            <p id="total-expense"> </p>
+
+        </div>
+    </div>
+    <div class="balance-div">
+        <h2>Balance</h2>
+        <div id="balance-output"></div>
+    </div>
+
+
+    <script src="account_detail.js"></script>
+</body>
+
+</html>

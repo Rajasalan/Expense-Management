@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.account-detail {
+
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.income-div {
+    width: 50%;
+    border: 2px solid black;
+    height: auto;
+    list-style-type:decimal;
+}
+
+.expense-div {
+    width: 50%;
+    border: 2px solid black;
+    height: auto;
+}
+
+#income-output {
+    width: auto;
+    height: auto;
+    /* border: 2px solid green; */
+    margin-left: 25%;
+}
+
+#expense-output {
+    width: auto;
+    margin-left: 25%;
+}
+
+.balance-div {
+    width: 100%;
+    border: 2px solid black;
+}
